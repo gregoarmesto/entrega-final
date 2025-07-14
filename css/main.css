@@ -76,9 +76,6 @@ main h2 {
   .salto-linea {
     display: block;
   }
-  main {
-    height: 90vw;
-  }
   main h1 {
     padding-top: 20vw;
     text-align: center;
