@@ -29,3 +29,11 @@ footer{
 nav div ul li {
     padding-left: 5%;
 }
+@media (max-width: 768px) {
+  
+  footer {
+    h3 { 
+    font-size:3vw;
+    }
+  }
+}

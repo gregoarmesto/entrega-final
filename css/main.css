@@ -30,6 +30,11 @@ nav div ul li {
   padding-left: 5%;
 }
 
+@media (max-width: 768px) {
+  footer h3 {
+    font-size: 3vw;
+  }
+}
 .imagen-inicio {
   background-image: url("../assets/inicio2.jpg");
   background-size: cover;
