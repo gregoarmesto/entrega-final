@@ -31,6 +31,13 @@ nav div ul li {
 }
 
 @media (max-width: 768px) {
+  main h1 {
+    padding-left: 35vw;
+  }
+  main h2 {
+    padding-top: 15vw;
+    padding-left: 32vw;
+  }
   footer h3 {
     font-size: 3vw;
   }
