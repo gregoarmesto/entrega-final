@@ -29,21 +29,3 @@ footer{
 nav div ul li {
     padding-left: 5%;
 }
-@media (max-width: 800px) {
-
-  main{ 
-    h1{ padding-left: 35vw;
-    }
-    h2{
-    padding-top: 15vw;
-    padding-left: 32vw;
-}
-}
-  
-  footer {
-    background-color: red;
-    h3 { 
-    font-size:3vw;
-    }
-  }
-}

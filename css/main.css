@@ -30,21 +30,6 @@ nav div ul li {
   padding-left: 5%;
 }
 
-@media (max-width: 800px) {
-  main h1 {
-    padding-left: 35vw;
-  }
-  main h2 {
-    padding-top: 15vw;
-    padding-left: 32vw;
-  }
-  footer {
-    background-color: red;
-  }
-  footer h3 {
-    font-size: 3vw;
-  }
-}
 .imagen-inicio {
   background-image: url("../assets/inicio2.jpg");
   background-size: cover;
@@ -54,11 +39,11 @@ nav div ul li {
 }
 
 main h1 {
-  padding-left: 42vw;
+  text-align: center;
 }
 main h2 {
   padding-top: 15vw;
-  padding-left: 38vw;
+  text-align: center;
 }
 
 .animar-nombre {
@@ -85,6 +70,26 @@ main h2 {
   gap: 2rem;
   flex-wrap: wrap;
   padding: 2rem;
+}
+
+@media (max-width: 800px) {
+  .salto-linea {
+    display: block;
+  }
+  main {
+    height: 90vw;
+  }
+  main h1 {
+    padding-top: 10vw;
+    text-align: center;
+  }
+  main h2 {
+    padding-top: 30vw;
+    justify-content: center;
+  }
+  footer h3 {
+    font-size: 3vw;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

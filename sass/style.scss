@@ -3,7 +3,27 @@
 @import "pages/disenios";
 @import "pages/contacto";
 
-
+@media (max-width: 800px) {
+.salto-linea{
+    display:block;
+}
+  main{ 
+    height: 90vw;
+    h1{
+    padding-top: 10vw;
+    text-align: center;
+    }
+    h2{
+    padding-top: 30vw;
+    justify-content: center;
+}
+}
+  footer {
+    h3 { 
+    font-size:3vw;
+    }
+  }
+}
 
 
 
