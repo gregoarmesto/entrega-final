@@ -38,6 +38,9 @@ nav div ul li {
     padding-top: 15vw;
     padding-left: 32vw;
   }
+  footer {
+    background-color: red;
+  }
   footer h3 {
     font-size: 3vw;
   }
