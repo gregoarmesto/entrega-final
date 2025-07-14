@@ -3,18 +3,18 @@
 @import "pages/disenios";
 @import "pages/contacto";
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
 .salto-linea{
     display:block;
 }
   main{ 
     height: 90vw;
     h1{
-    padding-top: 10vw;
+    padding-top: 20vw;
     text-align: center;
     }
     h2{
-    padding-top: 30vw;
+    padding-top: 40vw;
     justify-content: center;
 }
 }
