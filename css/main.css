@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: black;
+}
+footer h3 {
+  text-transform: uppercase;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1vw;
+}
+
+.navbar-nav .nav-link {
+  font-size: 2rem;
+  padding: 0.2rem;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(78, 75, 75);
+}
+
+nav div ul li {
+  padding-left: 5%;
+}
+
+.imagen-inicio {
+  background-image: url("../assets/inicio2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+main h1 {
+  padding-left: 42vw;
+}
+main h2 {
+  padding-top: 15vw;
+  padding-left: 38vw;
+}
+
+.animar-nombre {
+  opacity: 0;
+  transform: translateY(30px) scale(0.7);
+  animation: subirCrecer 3s ease forwards;
+}
+
+@keyframes subirCrecer {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.carousel-item img {
+  height: 900px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.cartas-contacto {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=main.css.map */

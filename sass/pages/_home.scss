@@ -1,0 +1,28 @@
+.imagen-inicio{
+  background-image: url('../assets/inicio2.jpg');
+  background-size:cover;     // ajusta la imagen al tamaño del viewport
+  background-position: center;    // centra la imagen
+  background-repeat: no-repeat;   // evita que se repita
+  height: 100vh;
+}
+
+main{ 
+    h1{ padding-left: 42vw;
+    }
+    h2{
+    padding-top: 15vw;
+    padding-left: 38vw;
+}
+}
+.animar-nombre {
+  opacity: 0;
+  transform: translateY(30px) scale(0.7);
+  animation: subirCrecer 3s ease forwards;
+}
+
+@keyframes subirCrecer {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
