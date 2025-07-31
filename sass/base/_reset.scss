@@ -10,7 +10,7 @@ footer{
     background-color: $color-footer;
     h3{
         text-transform: uppercase;
-        color: whitesmoke;
+        color: rgb(170, 155, 155);
         text-align: center;
         font-size: 1vw;
     }
@@ -19,6 +19,7 @@ footer{
 .navbar-nav .nav-link {
   font-size: 2rem;
   padding: 0.2rem;
+  white-space: nowrap;
 }
 .titillium-web-regular {
   font-family: "Titillium Web", sans-serif;

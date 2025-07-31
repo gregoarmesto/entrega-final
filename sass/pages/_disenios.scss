@@ -1,5 +1,16 @@
-.carousel-item img {
-  height: 900px;
-  object-fit: cover;     
-  width: 100%;
+
+
+.carrousel-disenios .carousel-item img {
+height: 1024px;
+object-fit:contain;     
+width: 100%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.158); // por ejemplo, negro translúcido
+}
+.subtitulo-disenios{
+    font-size: 1vw;
+    margin: 1vw;
+    padding: 0;
 }

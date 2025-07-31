@@ -8,16 +8,17 @@
 
 main{ 
     h1{text-align: center;
+      padding-top: 2vw;
     }
     h2{
     padding-top: 15vw;
     text-align: center;
-}
+    }
 }
 .animar-nombre {
   opacity: 0;
   transform: translateY(30px) scale(0.7);
-  animation: subirCrecer 3s ease forwards;
+  animation: subirCrecer 4s ease forwards;
 }
 
 @keyframes subirCrecer {
@@ -25,4 +26,28 @@ main{
     opacity: 1;
     transform: translateY(0) scale(1);
   }
+}
+.accesos-directos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  margin-top: 6vw;
+  a {
+    display: block;
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  img {
+      width: 150px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+
+  &:hover {
+      transform: scale(1.5);
+      transition: transform 1s ease;
+    }
+  
 }
