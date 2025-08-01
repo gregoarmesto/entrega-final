@@ -218,10 +218,15 @@ main h2 {
   footer h3 {
     font-size: 3vw;
   }
-  .grid-portafolio .proyecto img {
+  .grid-portafolio {
+    margin:0;
+    padding: 0;
+  
+  .proyecto img {
     width: 350px;
     max-width: 350px;
   }
+}
   .accesos-directos {
     flex-direction: column;
   }
