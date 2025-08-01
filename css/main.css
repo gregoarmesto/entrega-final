@@ -219,12 +219,16 @@ main h2 {
     font-size: 3vw;
   }
   .grid-portafolio {
-    margin:0;
-    padding: 0;
-  
-  .proyecto img {
-    width: 350px;
-    max-width: 350px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    overflow-x: hidden;
+
+    .proyecto img {
+      width: 100%;
+      max-width: 100%;
+    }
   }
 }
   .accesos-directos {
@@ -287,6 +291,6 @@ main h2 {
     margin: 1vw;
     padding: 0;
   }
-}
+
 
 /*# sourceMappingURL=main.css.map */
