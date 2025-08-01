@@ -219,8 +219,8 @@ main h2 {
     font-size: 3vw;
   }
   .grid-portafolio .proyecto img {
-    width: 80%;
-    max-width: 700px;
+    width: 350px;
+    max-width: 350px;
   }
   .accesos-directos {
     flex-direction: column;
