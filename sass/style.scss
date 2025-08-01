@@ -29,7 +29,17 @@
 
 .accesos-directos{
   flex-direction: column;
+  &:hover {
+      transform: none;
+      transition: none;
+    }
 }
+.carrousel-disenios .carousel-item img {
+height: auto;
+object-fit:cover;     
+width: 100%;
+}
+
 .carrousel-obras {
     flex-direction: column;
     height: auto !important;
